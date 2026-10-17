@@ -1,0 +1,12 @@
+<!-- Décor original dessiné en SVG : modifier les couleurs et opacités pour ajuster le lavis. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 800" fill="none">
+  <defs>
+    <filter id="water" x="-20%" y="-20%" width="140%" height="140%"><feTurbulence type="fractalNoise" baseFrequency=".016" numOctaves="3" seed="8" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="34"/><feGaussianBlur stdDeviation="5"/></filter>
+    <radialGradient id="a"><stop stop-color="#70c8cd" stop-opacity=".27"/><stop offset="1" stop-color="#70c8cd" stop-opacity="0"/></radialGradient>
+    <radialGradient id="b"><stop stop-color="#ae99c7" stop-opacity=".24"/><stop offset="1" stop-color="#ae99c7" stop-opacity="0"/></radialGradient>
+    <radialGradient id="c"><stop stop-color="#c0cd6d" stop-opacity=".19"/><stop offset="1" stop-color="#c0cd6d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g filter="url(#water)"><path d="M-70 570C-15 300 160 256 330 306S605 297 689 468 476 815 202 820-92 767-70 570Z" fill="url(#a)"/><path d="M836 194C949 25 1274-25 1411 75S1551 379 1392 479 1113 518 966 432 781 277 836 194Z" fill="url(#b)"/><path d="M654 352C820 204 1010 286 1007 459S784 647 685 572 564 432 654 352Z" fill="url(#c)"/></g>
+  <g stroke="#52756e" stroke-width="1" opacity=".14"><path d="M-27 578C114 381 306 492 269 613S74 747 15 634 102 413 248 453"/><path d="M1065 100C1147 23 1329 12 1391 99S1318 253 1192 221 1054 135 1065 100Z"/><path d="M1074 106C1124 13 1298 1 1376 77S1369 240 1217 229"/></g>
+  <circle cx="315" cy="536" r="13" stroke="#60b6be" stroke-width="2" opacity=".4"/><circle cx="1208" cy="301" r="8" stroke="#a18ab9" stroke-width="2" opacity=".4"/>
+</svg>

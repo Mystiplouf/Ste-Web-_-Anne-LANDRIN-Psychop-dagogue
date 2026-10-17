@@ -1,0 +1,17 @@
+ANNE LANDRIN — MAQUETTES DE DESIGN
+
+Ouvrir index.html dans un navigateur, puis utiliser les deux barres du bandeau pour parcourir les pages. Garder tous les fichiers et le dossier assets ensemble.
+
+Pages du menu : Accueil, La psychopédagogie, Accompagnements & tarifs, Contact.
+
+Évolutions : bandeau fixe et translucide à 32 %, menu vertical à droite, aucune flèche, texte court sur l’accueil, lavis et contours inspirés des publications fournies, rappel des anneaux du logo.
+
+Le menu s’ouvre et se ferme progressivement ; ses titres se soulignent de gauche à droite au survol et au clavier. Une lentille transparente de 78 px suit doucement la souris, avec un grossissement de 4 %. Elle s’efface sur les contrôles, dans le menu et pendant le défilement. Elle est désactivée sur les interfaces tactiles et lorsque la réduction des mouvements est activée. La taille et le zoom se règlent dans les variables --al-lens-size et --al-lens-zoom de style.css.
+
+Les textes restent provisoires. Les tarifs et durées proviennent du document de travail fourni. Le téléphone provient de la capture Instagram fournie. Les autres coordonnées et les prix globaux des parcours restent à compléter ou confirmer.
+
+Le formulaire est une démonstration locale : aucun envoi, aucune conservation. Les pages légales sont des emplacements à compléter. Le visuel du carnet est une image d’ambiance fictive.
+
+Les originaux sur OneDrive et les captures sources n’ont pas été modifiés.
+
+Avant une mise en ligne : valider les textes, coordonnées, qualifications, tarifs et mentions légales ; intégrer les vraies photographies ; configurer l’envoi du formulaire et les métadonnées du domaine. Ces maquettes portent volontairement une instruction de non-indexation.
