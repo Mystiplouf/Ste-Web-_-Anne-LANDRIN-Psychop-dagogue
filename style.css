@@ -12,8 +12,7 @@
 #al-lumiere-v2 .al-kicker { font-size:11px; line-height:1.5; font-weight:500; letter-spacing:1.9px; text-transform:uppercase; }
 #al-lumiere-v2 .al-sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip-path:inset(50%); white-space:nowrap; }
 /* Bandeau : aucune rubrique visible avant ouverture. Le PNG transparent fourni est seulement cadré sur ses marges. */
-#al-lumiere-v2 .al-header { position:fixed; left:24px; right:24px; top:28px; z-index:5; height:80px; padding:7px 20px 7px 16px; display:flex; align-items:center; justify-content:space-between; border:1px solid rgba(255,255,255,.52); border-radius:10px; background:rgba(190, 207, 199,var(--al-glass)); backdrop-filter:blur(var(--al-blur)); -webkit-backdrop-filter:blur(var(--al-blur)); box-shadow:0 3px 17px rgba(45,75,61,.035),inset 0 1px 0 rgba(255,255,255,.22); }
-#al-lumiere-v2 .al-brand { display:inline-flex; align-items:center; }
+#al-lumiere-v2 .al-header { position:fixed; left:24px; right:24px; top:28px; z-index:5; height:80px; padding:7px 20px 7px 16px; display:flex; align-items:center; justify-content:space-between; border:1px solid rgba(255,255,255,.52); border-radius:10px; background:rgba(190,207,199,var(--al-glass)); backdrop-filter:blur(var(--al-blur)); -webkit-backdrop-filter:blur(var(--al-blur)); box-shadow:0 3px 17px rgba(45,75,61,.035),inset 0 1px 0 rgba(255,255,255,.22); }
 #al-lumiere-v2 .al-logo { display:block; width:118px; height:66px; object-fit:cover; object-position:center;  }
 #al-lumiere-v2 .al-toggle { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:8px; width:48px; height:48px; padding:0; border:0; background:transparent; color:var(--al-ink); }
 #al-lumiere-v2 .al-toggle span { display:block; width:25px; height:1.5px; background:currentColor; }
